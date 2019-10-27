@@ -17,7 +17,7 @@ regular_headers = [
 ]
 
 ip = sys.argv[1]
-socket_count = 3000
+socket_count = 300
 log("Attacking {} with {} sockets.".format(ip, socket_count))
 
 log("Creating sockets...")
