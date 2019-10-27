@@ -19,4 +19,4 @@ docker logs -f slowloris-nginx
 docker run -it --rm ppecheny/slowloris-python python3 slowloris.py 172.17.0.1
 ```
 
-172.17.0.1 - it is docker internal IP, but you can out any host here
+_172.17.0.1_ - it is docker internal IP, but you can put any host here
